@@ -227,7 +227,7 @@ width: 40%;
 .content button{
     width: 50%;
     height: 6vh;
-    margin: 30px 0px 50px 120px;
+    margin: 30px 0 30px 80px;
     background-color: #46a6ff;
     color: white;
     border: none;
@@ -236,6 +236,7 @@ width: 40%;
     font-weight: 700;
     border-radius: 5px;
     transition: linear;
+    align-items: center;
 }
 
 .content button:hover{
@@ -316,7 +317,8 @@ section .topic{
     padding: 0 20px;
 }
 section .button {
-    margin: 16px 0px 20px;
+    margin: 16px 0px;
+    
 }
 section .button button{
     outline: none;
@@ -467,7 +469,7 @@ section .button button:hover{
     background: black;
 }
 .contact .content{
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 30px 0;
 }
 .contact .text{
@@ -475,10 +477,7 @@ section .button button:hover{
     text-align: center;
     margin: auto;
 }
-.contact .button{
-    margin: 20px 85px 0px 0;
-    padding: auto;
-}
+
 footer{
     background: #46a6ff;
     padding: 15px 0;
