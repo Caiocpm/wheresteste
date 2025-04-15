@@ -177,7 +177,7 @@ width: 40%;
 }
 
 .content h1 {
-    font-size: clamp(1rem, 1rem + 5vw, 1rem);
+    font-size: clamp(1rem, 1rem + 5vw, 1.9rem);
 }
 
 .content h1 span {
@@ -186,7 +186,7 @@ width: 40%;
 }
 
 .content .typewriter {
-    font-size: clamp(1rem, 1rem + 5vw, 1rem);
+    font-size: clamp(1rem, 1rem + 5vw, 1.8rem);
     font-weight: 600;
 
 }
@@ -321,6 +321,7 @@ section .button {
     
 }
 section .button button{
+    margin: 30px 0 30px 90px;
     outline: none;
     padding: 8px 16px;
     border-radius: 4px;
@@ -475,6 +476,9 @@ section .button button:hover{
 .contact .text{
     width: 80%;
     text-align: center;
+    margin: auto;
+}
+.contact .button button{
     margin: auto;
 }
 
